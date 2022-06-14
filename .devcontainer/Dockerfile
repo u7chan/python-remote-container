@@ -5,7 +5,7 @@ ENV LANG="ja_JP.UTF-8" \
     LC_ALL="ja_JP.UTF-8"
 
 RUN apt update && \
-    apt-get upgrade && \
+    apt-get -y upgrade && \
     apt-get -y install \
     bash \
     git \
