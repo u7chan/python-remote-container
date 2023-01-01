@@ -9,4 +9,4 @@ services:
     environment:
       TZ: Asia/Tokyo
     working_dir: /root/workspace/Projects
-    command: /bin/sh -c "while sleep 1000; do :; done"
+    tty: true
