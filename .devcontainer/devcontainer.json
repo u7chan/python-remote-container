@@ -3,11 +3,12 @@
   "dockerComposeFile": ["../docker-compose.yml"],
   "service": "dev",
   "shutdownAction": "none",
-  "workspaceFolder": "/root/workspace/Projects",
+  "workspaceFolder": "/root/workspace/Example",
   "extensions": [
     "esbenp.prettier-vscode",
     "eamodio.gitlens",
     "mhutchie.git-graph",
+    "streetsidesoftware.code-spell-checker",
     "ms-python.python",
     "ms-python.vscode-pylance"
   ],

@@ -4,9 +4,9 @@ services:
     build:
       context: .
       dockerfile: ./.devcontainer/Dockerfile
-    volumes:
-      - .:/root/workspace
+    tty: true
     environment:
       TZ: Asia/Tokyo
-    working_dir: /root/workspace/Projects
-    tty: true
+    volumes:
+      - .${PROJECT}:${WORKSPACE_PROJECT}
+    working_dir: ${WORKSPACE_PROJECT}
